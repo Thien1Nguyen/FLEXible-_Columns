@@ -1,0 +1,29 @@
+/* *{
+    margin:0;
+    padding: 0;
+} */
+
+.row {
+    display: flex;
+    gap: 5px;
+    justify-content: space-around;
+    color: aliceblue;
+    margin: 10px;
+    
+}
+
+.col{
+    flex: 1;
+    background-color: crimson;
+    padding: 10px;
+}
+.col-2{
+    flex:2;
+    background-color: goldenrod;
+    padding: 10px;
+}
+.col-3  {
+    flex:3;
+    background-color: darkblue;
+    padding: 10px;
+}
